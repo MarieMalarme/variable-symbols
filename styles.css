@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Sun Moon';
+  src: url('./color-shapes.ttf') format('truetype');
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+  flex-direction: column;
+  user-select: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#font {
+  position: fixed;
+  font-size: 500px;
+  font-family: 'Sun Moon';
+}
+
+.o {
+  font-size: 200px;
+  font-family: 'Sun Moon';
+  position: absolute;
+}
